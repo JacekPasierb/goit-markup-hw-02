@@ -1,4 +1,45 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
+  
+}
+button:hover,
+button:focus {
+    background-color: #2196F3;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+a {
+    color:#212121;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+color: #2196F3;
+}
+.logo{
+    font-family: "Raleway";
+    font-size: 26px;
+    line-height: 1.2;
+    color:#000000;
+
+}
+.logo:hover,
+.logo:focus {
+color:#000000;
+}
+.logo2 {
+   
+    color: #2196F3;
+}
+.menu {
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: 500;
+    
+    
+}
+.contact {
+    color:#757575;
+    
 }
