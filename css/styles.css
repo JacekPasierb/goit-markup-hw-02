@@ -17,6 +17,12 @@ a:hover,
 a:focus {
 color: #2196F3;
 }
+:root {
+    --color-text: #000;
+    --background-color: #2F303A;
+    --background-color-two:#F5F4FA;
+    
+}
 .logo{
     font-family: "Raleway";
     font-size: 26px;
@@ -32,14 +38,29 @@ color:#000000;
    
     color: #2196F3;
 }
-.menu {
+.menu-style {
     font-size: 14px;
     line-height: 1.1;
     font-weight: 500;
     
     
 }
-.contact {
+.menu-contact-style {
     color:#757575;
     
+}
+.footer-style {
+    font-size: 14px;
+    line-height: 1.7 ;
+    color: #FFFFFF;
+}
+.footer-contact-style {
+    color:#FFFFFF99;
+}
+.footer-background,
+.background-banner {
+    background-color: var(--background-color);
+}
+.our-team {
+    background-color: var(--background-color-two);
 }
