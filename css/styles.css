@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
 }
+
 button:hover,
 button:focus {
   background-color: #2196f3;
@@ -16,13 +17,17 @@ a:hover,
 a:focus {
   color: #2196f3;
 }
+
 :root {
   --color-text: #ffffff;
   --background-color: #2f303a;
   --background-color-two: #f5f4fa;
-  --background-color-three:#757575;
-  --one-color-logo:#2196F3;
-  --two-color-logo:#000000;
+  --background-color-three: #757575;
+  --one-color-logo: #2196f3;
+  --two-color-logo: #000000;
+}
+.background-button {
+  background-color: var(--one-color-logo);
 }
 .logo {
   font-family: "Raleway";
@@ -46,7 +51,7 @@ a:focus {
   letter-spacing: 0.02em;
 }
 .menu-contact-style {
-  color:var(--background-color-three);
+  color: var(--background-color-three);
 }
 .footer-style {
   font-size: 14px;
@@ -55,9 +60,9 @@ a:focus {
   color: var(--color-text);
 }
 .footer-contact-style {
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 00.03em;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 00.03em;
   color: #ffffff99;
 }
 .footer-background,
@@ -105,6 +110,33 @@ a:focus {
 .employee-specialization {
   line-height: 1.2;
   text-align: center;
+  letter-spacing: 00.03em;
+  color: var(--background-color-three);
+}
+.style-text-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 00.06em;
+  color: var(--color-text);
+}
+.filter button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 00.03em;
+}
+.title-project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 00.06em;
+}
+.type-project {
+  line-height: 1.9;
   letter-spacing: 00.03em;
   color: var(--background-color-three);
 }
