@@ -20,36 +20,44 @@ a:focus {
   --color-text: #ffffff;
   --background-color: #2f303a;
   --background-color-two: #f5f4fa;
+  --background-color-three:#757575;
+  --one-color-logo:#2196F3;
+  --two-color-logo:#000000;
 }
 .logo {
   font-family: "Raleway";
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  color: #000000;
+  letter-spacing: 00.03em;
+  color: var(--two-color-logo);
 }
 .logo:hover,
 .logo:focus {
-  color: #000000;
+  color: var(--two-color-logo);
 }
 .logo2 {
-  color: #2196f3;
+  color: var(--one-color-logo);
 }
 .menu-style {
   font-size: 14px;
   line-height: 1.1;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .menu-contact-style {
-  color: #757575;
+  color:var(--background-color-three);
 }
 .footer-style {
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 00.03em;
   color: var(--color-text);
 }
 .footer-contact-style {
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 00.03em;
   color: #ffffff99;
 }
 .footer-background,
@@ -61,11 +69,42 @@ a:focus {
 }
 .head-style {
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.4;
   color: var(--color-text);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
-li > p {
-    font-size: 14px;
-    line-height: 1.7;
-  color: #757575;
+.text-article h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text-article p {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 00.03em;
+  color: var(--background-color-three);
+}
+.section-head {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 00.03em;
+}
+.name-worker {
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 00.03em;
+}
+.employee-specialization {
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 00.03em;
+  color: var(--background-color-three);
 }
